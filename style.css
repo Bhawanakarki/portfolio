@@ -1669,6 +1669,9 @@ font-size: 15px;
     color: red;
     font-size: 20px;
 }
+.del:hover{
+    color: white;
+}
 .del1:hover{
     color: red;
     
@@ -1709,7 +1712,9 @@ font-size: 15px;
     margin-left: 40%;
     font-size: 19px;
 }
-
+.api:hover{
+    color: red;
+}
 
 
 
