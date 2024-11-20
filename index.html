@@ -50,7 +50,9 @@
   <div class="text"><span id="head">WELCOME  TO  MY WORLD</span>
 <br>
 <h1>Hi, I'm <span1>Jone Lee</span1>
-    <br>   a&nbsp;<span id="work"></span> </h1>
+    <br>   a    <span id="element"></span>
+    <span id="work"></span> </h1>
+    
 
 
 <br>
@@ -602,8 +604,13 @@ John Due
 
 
 
-
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ["Professional Coder","Developer", "UI/UX Designer"],
+      typeSpeed: 50,loopCount:Infinity,loop:true,
+    });
+  </script>
     
 
  </body>
